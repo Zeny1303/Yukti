@@ -14,38 +14,6 @@ Yukti is an intelligent tourism analytics platform that leverages advanced data 
 - **🏛️ Heritage Focus**: Specialized analysis of UNESCO sites and cultural monuments
 - **🌱 Sustainability Metrics**: Environmental impact assessment for responsible tourism
 
-## ⚙️ Key Features
-
-### 🔍 **Tourism Trend Analysis**
-- Interactive visualization of foreign tourist arrivals across states
-- Revenue impact analysis with year-over-year comparisons
-- Demographic segmentation by nationality and travel purpose
-- Source country intelligence and market penetration insights
-
-### 🏛️ **Heritage Site Intelligence**
-- Comprehensive mapping of UNESCO World Heritage Sites
-- Cultural vs. Natural site categorization and analysis
-- Site popularity metrics and visitor engagement patterns
-- Age distribution and historical significance ranking
-
-### 🌧️ **Climate Impact Modeling**
-- Seasonal rainfall correlation with tourist footfall
-- Weather pattern analysis for tourism planning
-- Regional climate variations and tourism potential
-- Predictive modeling for seasonal demand forecasting
-
-### 🌫️ **Environmental Monitoring**
-- Real-time air quality index for major tourist destinations
-- Pollution-tourism correlation analysis
-- Health impact assessment for destination planning
-- Sustainability scoring for eco-friendly tourism
-
-### 📍 **Underexplored Destination Discovery**
-- AI-powered identification of hidden tourism gems
-- Barrier analysis for low-visibility heritage sites
-- Infrastructure gap assessment and recommendations
-- Regional development potential mapping
-
 ## 🛠 Technology Stack
 
 | Component | Technology | Purpose |
@@ -57,44 +25,6 @@ Yukti is an intelligent tourism analytics platform that leverages advanced data 
 | **Statistical Analysis** | SciPy, Scikit-learn | Advanced analytics and modeling |
 | **Deployment** | Streamlit Cloud | Production hosting |
 
-## 📁 Project Structure
-```
-Yukti/
-├── 📄 app.py                           # Main Streamlit application
-├── 📄 requirements.txt                 # Python dependencies  
-├── 📄 README.md                        # Project documentation
-├── 📁 Cultural_Heritage_Data/
-│   ├── 📄 Cultural_Age.csv             # Heritage sites age data
-│   ├── 📄 Cultural_Demands.csv         # Site demand analysis
-│   ├── 📄 Cultural_Ecosystem.csv       # Cultural ecosystem data
-│   ├── 📄 Cultural_Enderst.csv         # Endangered sites tracking
-│   ├── 📄 Cultural_Grading.csv         # Site quality grading
-│   ├── 📄 Cultural_Management.csv      # Site management data
-│   ├── 📄 Cultural_Naturecons.csv      # Conservation status
-│   ├── 📄 Cultural_Plotheritage.csv    # Plot heritage mapping
-│   ├── 📄 Cultural_Safeguards.csv      # Safeguarding measures
-│   ├── 📄 Cultural_Statemonn.csv       # State monument data
-│   ├── 📄 Cultural_stricas.csv         # Structural analysis
-│   └── 📄 Cultural_Touristpernum.csv   # Tourist per site numbers
-├── 📁 Countries_datasets/
-│   ├── 📄 Age_data.csv                 # Tourist age demographics
-│   ├── 📄 Genderwise.csv               # Gender-wise statistics
-│   ├── 📄 India_Tourism_Statistic.csv  # Overall tourism statistics
-│   ├── 📄 QuarterCountries.csv         # Quarterly country data
-│   ├── 📄 rental_area_wt_ad_100.csv    # Rental and area analysis
-│   └── 📄 Statewise_Festival.csv       # State festival calendar
-├── 📁 src/
-│   ├── 📄 heritage_site_map.py         # Heritage site mapping module
-│   ├── 📄 Heritage_sites.py            # Heritage site analysis
-│   ├── 📄 Tourism_Trends.py            # Tourism trend analysis
-│   ├── 📄 data_processing.py           # Data preprocessing utilities
-│   └── 📄 tourism_insights.py          # Core analytics engine
-└── 📁 pages/
-    ├── 📄 1_🏛️_Heritage_Sites.py       # Heritage sites dashboard
-    ├── 📄 2_📊_Tourism_Trends.py        # Tourism trends visualization
-    ├── 📄 3_🌧️_Rain_Tourism.py         # Climate-tourism correlation
-    └── 📄 4_🌫️_Pollution_Analysis.py   # Environmental impact analysis
-```
 
 ## 📊 Core Components
 
